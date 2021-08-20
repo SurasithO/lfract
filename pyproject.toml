@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "lfract"
-version = "1.0.0rc1"
+version = "1.0.0"
 description = "An open-source CLI software for generating fractal images using the L-System."
 authors = ["Surasith Boonaneksap <surasith.boo@hotmail.com>"]
 license = "MIT"
