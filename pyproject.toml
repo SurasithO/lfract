@@ -5,15 +5,16 @@ description = "An open-source CLI software for generating fractal images using t
 authors = ["Surasith Boonaneksap <surasith.boo@hotmail.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = ""
-repository = ""
-documentation = ""
+homepage = "https://github.com/SurasithO/lfract"
+repository = "https://github.com/SurasithO/lfract"
+documentation = "https://github.com/SurasithO/lfract"
 packages = [
     {include = "src"}
 ]
 
 [tool.poetry.dependencies]
 python = ">=3.6"
+Pillow = ">=4.0"
 
 [tool.poetry.scripts]
 lfract = 'src.lfract:main'
